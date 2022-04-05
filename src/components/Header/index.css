@@ -1,0 +1,45 @@
+header {
+  height: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  border-bottom: solid 1px rgba(31, 31, 215, 0.289);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.rates-list {
+  margin-right: 50px;
+}
+
+.rate-item {
+  color: rgb(66, 66, 211);
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 330px) {
+  .rate-item {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .rates-list {
+    margin-right: 0;
+  }
+}
